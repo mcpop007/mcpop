@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">    
+        <title>Galeries photo</title>
+        <meta name="author" content="Prénom Nom" >
+        <meta name="description" content="Mettre ici un résumé descriptif du contenu de la page avec des mots-clés" >
+        <meta name="robots" content="index,follow" >
+        <link rel="shortcut icon" type="images/x-icon" href="favicon.ico" >    
+        <link rel="stylesheet" href="../css/style.css" >
+        <script src="js/main.js"></script>
+	
+	
+		<!-- 		
+			commentaire conditionnel pour rendre compatible les nouvelles balises structurantes de HTML5 
+		-->
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+    <body  class="body_galerie">
+	<p>
+		<div class="header_galerie">
+		<h1 id="para6">Galeries</h1>
+		</p></div>
+		<br>
+		<div class="w3-content w3-display-container">
+  <img class="mySlides" src="../images/popi.jpg">
+  <img class="mySlides" src="../images/papi.jpg">
+  <img class="mySlides" src="../images/under.jpg">
+  <img class="mySlides" src="../images/a.jpg">
+  <img class="mySlides" src="../images/b.jpg">
+  <img class="mySlides" src="../images/ima.jpg">
+  <img class="mySlides" src="../images/imas.jpg">
+  <img class="mySlides" src="../images/c.jpg">
+  <img class="mySlides" src="../images/d.jpg">
+  <img class="mySlides" src="../images/e.jpg">
+  <img class="mySlides" src="../images/f.jpg">
+  <img class="mySlides" src="../images/g.jpg">
+  <img class="mySlides" src="../images/h.jpg">
+  <img class="mySlides" src="../images/i.jpg">
+  <img class="mySlides" src="../images/j.jpg">
+  </div>
+  <br>
+  <div><button class="w3-button_gauche" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button_droite" onclick="plusDivs(1)">&#10095;</button></div>
+  <br>
+  <div class="marge">
+  <img src="../images/ima.jpg">
+  <br>
+  <img src="../images/imas.jpg">
+  <br>
+  <img src="../images/papi.jpg">
+  <br>
+  <img src="../images/popi.jpg">
+  <br>
+  <img src="../images/under.jpg">
+  </div>
+  <br>
+  <div class="footer_galerie">
+  <p>Images of The Undertaker</p>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+ </body>
+</html>

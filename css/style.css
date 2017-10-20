@@ -1,0 +1,310 @@
+/* body permet de definir la fond d'écran*/
+
+.body_index {
+	
+background-image: url("../images/c.jpg");
+background-position: fixed;
+width: 100%;
+margin: 0;
+}
+
+.body_source {
+	
+  background-color: yellow;
+  margin: 0;
+}
+
+.body_galerie {
+	
+	background-color: black;
+	margin: 0;
+}
+
+.body_alerte {
+	
+	background-color: indigo;
+	margin: 0;
+}
+
+.body_contact {
+background-color: green;
+margin: 0;
+}
+
+#para7 {
+	color: blue;
+	text-align: center;
+}
+
+#para6 {
+	color: red;
+	text-align: center;
+}
+
+#para5 {
+	
+	color: black;
+	text-align: center;
+}
+
+#para8 {
+	
+	color: purple;
+	text-align: center;
+}
+
+/* Style the header */
+
+.header_index {
+	
+    text-align: center;
+	margin: 0;
+}
+
+.header_alerte {
+	
+    text-align: center;
+	margin: 0;
+}
+
+.header_source {
+	
+	text-align: center;
+	margin: 0;
+}
+
+.header_galerie {
+	
+    text-align: center;
+	margin: 0;
+}
+
+.header_contact {
+	
+    text-align: center;
+	margin: 0;
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+	margin: 0;
+}
+
+/* Style the topnav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.ligne {
+	width: 100%;
+}	
+
+.flotte {
+	
+	width: 20%;
+	float: left;
+}
+
+.image_droite {
+	
+	width: 70%;
+	text-align: right;
+	float: right;
+}
+img {
+	width: 20%;
+	height: 20%;
+	margin: 0;
+}
+
+/*align_droite align_gauche permettent de positionner les liens sources et galeries sur notre page web*/
+
+.align_gauche {
+	
+		float: left;
+}
+.align_droite {
+	
+float: right;
+padding: 14px;
+}
+/* align 1, 2 , 3 et sont de classe permettant d'aligner des paragraphes*/
+
+.align1 {
+	
+	text-align: left;
+	padding: 20pix;
+}
+
+.lien00 {
+	
+	text-align: center;
+	width: 100%;
+}
+
+.lien1 {
+	
+	width: 25%;
+	text-align: center;
+	padding: 10pix;
+}
+
+.lien2 {
+	
+	width: 25%;
+	text-align: center;
+	padding: 10pix;
+}
+
+.lien3 {
+	
+	width: 25%;
+	text-align: center;
+	padding: 10pix;
+}
+
+.lien4 {
+	
+	width: 25%;
+	text-align: center;
+	padding: 10pix;
+}
+
+.mySlides {
+	
+	width: 100%;
+	height: 500; 
+	padding: 0;
+}
+
+.w3-button_gauche {
+	
+	float: left;
+}
+
+.w3-button_droite {
+	
+	float: right;
+}
+
+.align2 {
+	
+	text-align: right;
+	padding: 20pix;
+}
+
+.formu {
+	
+	width: 25%;
+	text-align: center;
+	margin: 10pix;
+}
+
+.apell {
+	
+	text-align: center;
+	height: 60%;
+	width: 50%;
+	padding: 0;
+}
+
+.marge {
+	
+	height: 500%;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+	
+
+#para1 {
+	
+	color: red;
+	text-align: left;
+}
+
+
+#para2 {
+	
+	color: red;
+	text-align: right;	
+}	
+
+.align3 {
+	
+text-align: center;
+padding: 20pix;
+}
+
+#para3 {
+	
+	color: red;
+	text-align: center;
+}
+	
+.align4 {
+	
+text-align: justify;
+color: white;
+}
+
+#para4 {
+	
+color: red;
+text-align: justify;
+padding: 20pix;
+}
+
+#para {
+	color: green;
+	padding: 20pix;
+}
+
+	
+/* Style the footer */
+
+.footer_source {
+	
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer_index {
+	
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_galerie {
+	
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer_alerte {
+	
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_contact {
+	
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+}
+
+
